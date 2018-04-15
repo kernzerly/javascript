@@ -15,7 +15,7 @@ let firstName = prompt('What is your first name?'); // creating first name
 
 let lastName = prompt('what is your last name?'); // creating last name
 
-let name = firstName + " " + lastName; // combining first and last name together
+// let name = firstName + " " + lastName; // combining first and last name together
 
 console.log(firstName); // console logging name
 
