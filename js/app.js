@@ -62,3 +62,31 @@ if(myFavoriteMOvies[1][0] ==='star wars'
 // </script>
 //
 // </body>
+
+<b>Want to know how old you are in dog years?</b>
+
+<form method="post">
+
+<SCRIPT LANGUAGE="LiveScript">
+
+/*
+Dog Years Calculator
+By Adam Brown (adambrown2@iname.com)
+For this script and more,
+Visit http://javascriptkit.com
+*/
+
+function fido (form){
+	form.dogyears.value = form.humanyears.value * 7
+}
+</SCRIPT>
+
+<TABLE>
+<TR><TD>Enter your age:</TD><TD><INPUT TYPE ="text" NAME="humanyears" SIZE=15></TD></TR>
+
+<TR><TD><INPUT TYPE ="button" VALUE="Calculate" ONCLICK="fido(this.form)"></TD></TR>
+
+<TR><TD>Your age in Dog Years is:</TD><TD><INPUT TYPE="text" NAME="dogyears" SIZE=15></TD></TR>
+
+</TABLE>
+</FORM>
